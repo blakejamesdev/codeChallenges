@@ -12,6 +12,7 @@ let majorityElement = ((nums) => {
       }
   
       count += num === candidate ? 1 : -1;
+      console.log(candidate,count)
     }
   
     // Verify if the candidate is the majority element
